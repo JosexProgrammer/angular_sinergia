@@ -1,0 +1,31 @@
+.footer{
+    background-color: black;
+    height: auto;
+    min-height: 70px;
+    padding-left: 30px;
+    & .facebook{
+        color:#33408a;
+    }
+    & .twitter{
+        color:#0790af;
+    }
+    & .linkedin{
+        color:#478bdb;
+    }
+    & .youtube{
+        color:#a24d4d ;
+    }
+  }
+  .justify-mobile{
+    justify-content:end
+  }
+
+  @media only screen and (max-width: 425px) {
+    .text-center-mobile{
+        text-align: center;
+    }
+    .justify-mobile{
+        justify-content:center;
+      }
+  }
+

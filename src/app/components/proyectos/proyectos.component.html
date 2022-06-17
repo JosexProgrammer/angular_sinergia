@@ -1,0 +1,46 @@
+<div class="container-fluid p-0">
+    <div [class] = "proyecto.class" *ngFor = "let proyecto of proyectos; let i = index">
+      <div class = "row" *ngIf="lugar(i+1)">
+        <div class = "col-md-6 py-5">
+          <img [src] = "proyecto.routeImage" class = "img-pro">
+        </div>
+        <div class = "col-md-6 d-flex align-items-center justify-mobile py-5">
+          <div class = "col-md-9 col-12">
+            <div><img [src] = "proyecto.routeLogo" class = "logo-pro"></div>
+            
+            <p class = "tittle-pro pt-3">{{proyecto.tittle}}</p>
+            <p class = "description-pro">
+              {{proyecto.description}}
+            </p>
+            <button class="button-pro mt-4">VER DETALLES</button>
+          </div>
+          
+        </div>
+        
+      </div>
+
+      <div class = "row" *ngIf="!lugar(i+1)">
+        
+        <div class = "col-md-6 d-flex align-items-center justify-content-center py-5">
+          <div class = "col-md-9 col-12">
+            <div><img [src] = "proyecto.routeLogo" class = "logo-pro"></div>
+            
+            <p class = "tittle-pro pt-3">{{proyecto.tittle}}</p>
+            <p class = "description-proyecto">
+              {{proyecto.description}}
+            </p>
+            <button class="button-pro mt-4">VER DETALLES</button>
+
+          </div>
+        </div>
+        <div class = "col-md-6 py-5">
+          <img [src] = "proyecto.routeImage" class = "img-pro">
+          
+        </div>
+      </div>
+      
+      <div>
+
+      </div>
+    </div>
+  </div>

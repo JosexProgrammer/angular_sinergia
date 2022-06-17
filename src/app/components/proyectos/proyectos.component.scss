@@ -1,0 +1,81 @@
+.img-pro{
+  width:100%;
+}
+.logo-pro{
+  width:150px;
+  }
+.container-blue{
+    background-color: #223b82;
+    height:auto;
+    & .tittle-pro{
+      color: white;
+      font-size: 35px;
+      line-height: 20px;
+    }
+    & .description-pro{
+      color: white;
+      font-size:20px;
+      }
+    & .button-pro{
+      
+      background-color: white;
+      
+      height: 55px;
+      width: 260px;
+      text-align: center;
+      border-radius: 8px;
+      font-size: 12px;
+      color: #223b82;
+      font-weight: bold;
+      border: none;
+      
+    }
+    
+  }
+  .container-red{
+    background-color: #c92c3a;
+    height:auto;
+    & .tittle-pro{
+      color: white;
+      font-size: 35px;
+      line-height: 20px;
+    }
+    & .description-pro{
+      color: white;
+      font-size:20px;
+      }
+    & .button-pro{
+      
+      background-color: white;
+      height: 55px;
+      width: 260px;
+      text-align: center;
+      border-radius: 8px;
+      font-size: 12px;
+      color: #c92c3a;
+      font-weight: bold;
+      border:none;
+      
+    }
+  }
+  .container-white{
+   background-color: #ffffff;
+   height:auto;
+   & .titulo_proyecto{
+    font-size: 35px;
+    line-height: 20px;
+  }
+  .button-pro{
+   
+    background-color: #c92c3a;
+    height: 55px;
+    width: 260px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+
+  }
+}

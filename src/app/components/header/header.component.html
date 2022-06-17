@@ -1,0 +1,48 @@
+<div>
+    <div class = "bg-nav">
+        <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container-fluid px-0">
+          <img src="/assets/images/logonav.png" class="logonav">
+          <button class="navbar-toggler border-none" type="button" data-bs-toggle="collapse" data-bs-target="#navBar" aria-controls="navBar" aria-expanded="false" aria-label="Toggle navigation">
+          <fa-icon [icon]="faBars" class = "color-icon-nav"></fa-icon>
+          </button>
+          <div class="collapse navbar-collapse align-self-end justify-content-end" id="navBar" >
+            <div class="navbar-nav">
+              <a class="nav-link" [class] = "opcion === 1 ? 'active':''" href="#" (click)="this.opcion = 1">inicio</a>
+              <a class="nav-link" [class] = "opcion === 2 ? 'active':''" href="#" (click)="this.opcion = 2">nosotros</a>
+              <a class="nav-link" [class] = "opcion === 3 ? 'active':''" href="#" (click)="this.opcion = 3">servicios</a>
+              <a class="nav-link" [class] = "opcion === 4 ? 'active':''" href="#" (click)="this.opcion = 4">casos de éxito</a>
+              <a class="nav-link" [class] = "opcion === 5 ? 'active':''" href="#" (click)="this.opcion = 5">únete al equipo</a>
+              <a class="nav-link" [class] = "opcion === 6 ? 'active':''" href="#" (click)="this.opcion = 6">contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+  
+  
+      <div class="container size-nav d-flex justify-content-center align-items-center">
+          <div>
+            <div class=" d-flex justify-content-center align-items-center">
+              <span class="titulo-w">
+                Nos especializamos en
+              </span>
+            </div>
+            <div class=" d-flex justify-content-center align-items-center">
+              <span class="titulo-gr">
+                interfaces digitales que los usuarios aman
+              </span>
+          </div>
+            <div class=" d-flex justify-content-center align-items-center pt-5">
+              <button class="button-gre-big">HABLEMOS DE TU PROYECTO</button>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-black d-flex justify-content-center align-items-center">
+      <fa-icon [icon]="faTowerBroadcast" class = "color-icon-subnav"></fa-icon>
+      <p class = "p-white m-0"><span>En directo</span> - SOHO está presente en el <span>DIGITAL BANK MONTEVIDEO.</span> "Experiencia de Usuario" por Alvaro Añón (CEO DE SOHO)</p>
+      
+      <button class="button-gre-small">VER EVENTO</button>
+      <button class="button-trans-small">PRÓXIMOS EVENTOS</button>
+    </div>
+</div>

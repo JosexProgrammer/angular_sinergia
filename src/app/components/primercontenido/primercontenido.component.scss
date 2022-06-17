@@ -1,0 +1,25 @@
+.first-content{
+    background-color: #3b4148;
+    height:250px;
+    text-align: center;
+}
+.second-content{
+      background-color: #161c21;
+      height:250px;
+      text-align: center;
+}
+.third-content{
+      background-color: #202a37;
+      height:250px;
+      text-align: center;
+}
+
+.tittle-conten{
+      color:#02b321;
+      font-size:25px;
+}
+@media only screen and (max-width: 425px) {
+      .tittle-conten{
+            font-size:20px;
+      }  
+}
